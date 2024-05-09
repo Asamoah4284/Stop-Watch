@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 48px 96px;
+  position: relative;
+  color: #444;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+.btn {
+  display: flex;
+  gap: 1rem;
+}
+.btns {
+  /* border: 1px solid slategray; */
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+}
+.all {
+  /* width: 80rem; */
+  /* margin: 10rem auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10rem;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.time {
+  display: flex;
+  margin: 1rem 0;
+  gap: 0.2rem;
+  font-size: 1.6rem;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
